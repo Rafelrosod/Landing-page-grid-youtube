@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100vw;
+    height: 7vh;
+    background-color: blanchedalmond;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.sidebar {
+    width: 20vw;
+    height: 100vh;
+    background-color: brown;
+}
+
+.grid-container {
+    display: grid;
+    width: 96vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40vh;
+    gap: 10px;
+    margin: 5px;
+}
+
+.grid-item {
+    background: lightblue;
+    padding: 10px;
+    text-align: center;
+}
